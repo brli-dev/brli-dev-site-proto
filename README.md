@@ -1,3 +1,3 @@
-# port-site-temp
+# Portfolio Site
 
-Just a temp
+Just a template for a portfolio site, changes still to be made
