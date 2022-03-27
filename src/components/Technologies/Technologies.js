@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiPython, DiGithubBadge } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,7 +19,7 @@ const Technologies = () =>  (
              <ListTitle>Front-End</ListTitle>
               <ListParagraph>
                 Experience with <br />
-                React.js
+                React.js, HTML/CSS
               </ListParagraph>
             </ListContainer>
        </ListItem>
@@ -29,17 +29,27 @@ const Technologies = () =>  (
              <ListTitle>Back-End</ListTitle>
               <ListParagraph>
                 Experience with <br />
-                Node.js
+                Node.js, MongoDB
               </ListParagraph>
             </ListContainer>
        </ListItem>
        <ListItem>
-         <DiZend size="3rem" />
+         <DiPython size="3rem" />
            <ListContainer>
-             <ListTitle>UI/UX</ListTitle>
+             <ListTitle>Languages</ListTitle>
               <ListParagraph>
-                Currently no experience <br />
-                :sadge:
+                Experience with <br />
+                Python, Java, C, Javascript, OCaml
+              </ListParagraph>
+            </ListContainer>
+       </ListItem>
+       <ListItem>
+         <DiGithubBadge size="3rem" />
+           <ListContainer>
+             <ListTitle>Others</ListTitle>
+              <ListParagraph>
+                Experience with <br />
+                Git, Heroku
               </ListParagraph>
             </ListContainer>
        </ListItem>

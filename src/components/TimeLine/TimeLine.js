@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle> About</SectionTitle>
       <SectionText>
-        Started my software journey Sophomore Year of college. I switched from Physics to Computer Science and it has been smooth sailing from there.
+        Started my software journey Sophomore Year of college. I switched from Physics to Computer Science.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
